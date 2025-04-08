@@ -41,7 +41,7 @@ const Header = () => {
           </ul>
           <div className="h-[40px] w-[1px] bg-line hidden md:block" />
           <ThemeToggle />
-          <Link to="/login" className="btn btn-primary px-6 py-2 rounded-md">
+          <Link to="/role" className="btn btn-primary px-6 py-2 rounded-md">
             Get Started
           </Link>
           <div className="h-[40px] w-[1px] bg-line block md:hidden" />
