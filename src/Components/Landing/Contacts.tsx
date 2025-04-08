@@ -22,7 +22,7 @@ const Contacts = () => {
     },
   ];
   return (
-    <div className="my-10 space-y-10 py-10">
+    <div id="contact" className="my-10 space-y-10 py-10">
       <Title
         title="Get in touch with us"
         description="If you have any questions, please don't hesitate to contact us."

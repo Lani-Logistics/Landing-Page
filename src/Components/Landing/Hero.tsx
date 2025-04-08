@@ -31,7 +31,7 @@ const Hero = () => {
 
           <div className="flex items-center md:justify-center gap-2 border-b border-line pb-10">
             <Link
-              to="/register"
+              to="/role"
               className="btn btn-primary min-w-[150px] font-semibold md:h-12 h-10 px-4 md:px-6 rounded-lg"
             >
               <span>Get Started</span>
@@ -49,7 +49,7 @@ const Hero = () => {
             {services.map((item) => (
               <li key={item.title} className="flex flex-col gap-2">
                 <span className="text-muted text-sm">{item.title}</span>
-                <span className="text-main text-2xl font-sora font-bold">
+                <span className="text-main md:text-2xl text-xl font-sora font-bold">
                   {item.value}
                 </span>
               </li>

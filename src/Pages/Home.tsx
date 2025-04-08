@@ -10,8 +10,8 @@ const Home = () => {
         title="Affordable Logistics Solutions Connecting Businesses and People Seamlessly. 🚚"
         description="At Lani Logistics, we specialize in providing fast, reliable, and affordable logistics solutions. Whether you're a small business or a large enterprise, our technology-driven approach ensures your deliveries are always on time and in perfect condition. Our mission is to bridge distances and connect people through seamless logistics services."
         image="/about.svg"
-        buttonPath="/about"
-        buttonText="Learn More"
+        buttonPath="/role"
+        buttonText="Ship Now"
         />
         <Services />
         <Offer />

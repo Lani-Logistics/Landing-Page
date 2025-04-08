@@ -9,6 +9,9 @@ import {
   PackageOpen,
   Utensils,
   Satellite,
+  Building2,
+  Bike,
+  UserRound,
 } from "lucide-react";
 
 export const menuItems = [
@@ -121,5 +124,46 @@ export const faqs = [
     question: "Does Lani have other services?",
     answer:
       "Yes, we have Lani Express to handle all your within and interstate package deliveries, then Lani Eats to get delicious meal, and Lani Stores to get all your needs delivered right to your doorsteps",
+  },
+];
+
+export const ROLES = [
+  {
+    id: 1,
+    title: "Personal",
+    description:
+      "Start receiving and making orders",
+    path: "/register/personal",
+    icon: UserRound,
+    colorbg: "bg-primary/10",
+    color: "text-primary",
+  },
+  {
+    id: 2,
+    title: "Rider",
+    description: "As a rider, start taking and delivering orders",
+    path: "/register/rider",
+    icon: Bike,
+    colorbg: "bg-blue-500/10",
+    color: "text-blue-500",
+  },
+  {
+    id: 2,
+    title: "Delivery Company",
+    description: "Optimize and power your delivery company with us",
+    path: "/register/company",
+    icon: Building2,
+    colorbg: "bg-purple-500/10",
+    color: "text-purple-500",
+  },
+  {
+    id: 4,
+    title: "Restaurant",
+    description:
+      "Supply users with your best meals. We will handle the rest",
+    path: "/register/restaurant",
+    icon: Utensils,
+    colorbg: "bg-green-500/10",
+    color: "text-green-500",
   },
 ];
